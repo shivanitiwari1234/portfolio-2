@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="A modern dark-mode personal portfolio website."
+  />
+
+  <title>SHIVANI TIWARI | Full Stack Developer</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+  <header class="header">
+    <nav class="navbar container">
+
+      <a href="#home" class="logo">
+        <span>&lt;</span>Shivani<span>/&gt;</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+    <section class="hero section" id="home">
+      <div class="container hero-content">
+
+        <div class="hero-text reveal">
+
+          <p class="eyebrow">
+            Hello, I'm
+          </p>
+
+          <h1>
+            Shivani Tiwari
+          </h1>
+
+          <h2>
+            I'm a
+            <span class="typing-text" id="typingText"></span>
+            <span class="cursor">|</span>
+          </h2>
+
+          <p class="hero-description">
+            I build clean, modern and user-friendly web applications
+            with a focus on performance, accessibility and great
+            user experiences.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <span>→</span>
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a
+              href="https://github.com/shivanitiwari1234"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              GH
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/shivani-tiwari-93205b302"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              in
+            </a>
+
+           
+          </div>
+
+        </div>
+
+
+        <!-- Profile Image Placeholder -->
+        <div class="hero-image reveal">
+
+          <div class="image-wrapper">
+            <div class="image-placeholder">
+<div class="image-placeholder img">
+
+              <img src="WhatsApp Image 2026-10-01 at 10.47.59 PM.jpeg"></div>
+            </div>
+          </div>
+
+          <div class="floating-card card-one">
+            <span>💻</span>
+            <div>
+              <strong>Clean Code</strong>
+              <small>Always improving</small>
+            </div>
+          </div>
+
+          <div class="floating-card card-two">
+            <span>⚡</span>
+            <div>
+              <strong>Fast & Modern</strong>
+              <small>Performance focused</small>
+            </div>
+         </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="section-label">Get to know me</p>
+          <h2>About <span>Me</span></h2>
+          <div class="heading-line"></div>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-text reveal">
+
+            <h3>
+              Turning ideas into digital experiences.
+            </h3>
+
+            <p>
+              I am a passionate developer who loves building clean,
+              scalable and user-friendly web applications. I enjoy
+              solving problems and turning creative ideas into
+              functional digital products.
+            </p>
+
+            <p>
+              My goal is to create websites and applications that
+              don't just look great, but also provide an intuitive
+              and enjoyable experience for users.
+            </p>
+
+            <a href="#contact" class="text-link">
+              Let's work together →
+            </a>
+
+          </div>
+
+
+          <div class="about-details reveal">
+
+            <div class="detail-card">
+              <span class="detail-icon">🎓</span>
+              <div>
+                <h4>Education</h4>
+                <p>B.Tech / Computer Science</p>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <span class="detail-icon">💼</span>
+              <div>
+                <h4>Learnimg ang develop</h4>
+                <p> fullstack development</p>
+                <p>Practicing DSA with c++ </p>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <span class="detail-icon">📍</span>
+              <div>
+                <h4>Location</h4>
+                <p> Ayodhya,India</p>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <span class="detail-icon">✉️</span>
+              <div>
+                <h4>Email</h4>
+                <p>shivanicyber123@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="section skills" id="skills">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="section-label">What I work with</p>
+          <h2>My <span>Skills</span></h2>
+          <div class="heading-line"></div>
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span class="skill-icon html">HTML</span>
+              <span>95%</span>
+            </div>
+
+            <h3>HTML5</h3>
+            <p>Semantic and accessible markup.</p>
+
+            <div class="progress">
+              <div style="width: 95%"></div>
+            </div>
+          </div>
+
+
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span class="skill-icon css">CSS</span>
+              <span>90%</span>
+            </div>
+
+            <h3>CSS3</h3>
+            <p>Responsive layouts and animations.</p>
+
+            <div class="progress">
+              <div style="width: 90%"></div>
+            </div>
+          </div>
+
+
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span class="skill-icon js">JS</span>
+              <span>88%</span>
+            </div>
+
+            <h3>JavaScript</h3>
+            <p>Interactive and dynamic experiences.</p>
+
+            <div class="progress">
+              <div style="width: 88%"></div>
+            </div>
+          </div>
+
+
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span class="skill-icon react">⚛</span>
+              <span>85%</span>
+            </div>
+
+            <h3>React</h3>
+            <p>Modern component-based interfaces.</p>
+
+            <div class="progress">
+              <div style="width: 85%"></div>
+            </div>
+          </div>
+
+
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span class="skill-icon node">Node</span>
+              <span>80%</span>
+            </div>
+
+            <h3>Node.js</h3>
+            <p>Backend APIs and server-side applications.</p>
+
+            <div class="progress">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+
+
+          <div class="skill-card reveal">
+            <div class="skill-header">
+              <span class="skill-icon git">Git</span>
+              <span>85%</span>
+            </div>
+
+            <h3>Git & GitHub</h3>
+            <p>Version control and collaboration.</p>
+
+            <div class="progress">
+              <div style="width: 85%"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="section projects" id="projects">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="section-label">Some things I've built</p>
+          <h2>Featured <span>Projects</span></h2>
+          <div class="heading-line"></div>
+        </div>
+
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+
+            <div class="project-image">
+              <div class="project-placeholder">
+                <img src="images 3.jpg">
+              </div>
+
+              <div class="project-overlay">
+                <a href="#" aria-label="View shopping application">
+                  ↗
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+
+              <p class="project-number">01</p>
+
+              <h3>E-Commerce Platform</h3>
+
+              <p>
+                A modern online shopping platform with product
+                listings, shopping cart and responsive UI.
+              </p>
+
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#" class="project-btn">
+                                    LiveDemo ↗
+
+                </a>
+                <a href="#" class="project-btn secondary">
+                                    GitHub ↗
+
+                </a>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- Project 2 -->
+          <article class="project-card reveal">
+
+            <div class="project-image">
+              <div class="project-placeholder">
+                <img src="images (1).jpg">
+              </div>
+
+              <div class="project-overlay">
+                <a href="#" aria-label="View dashboard">
+                  Github ↗
+                </a>
+
+              </div>
+            </div>
+
+            <div class="project-content">
+
+              <p class="project-number">02</p>
+
+              <h3>Analytics Dashboard</h3>
+
+              <p>
+                A responsive analytics dashboard for visualizing
+                business data and key performance metrics.
+              </p>
+
+              <div class="tech-stack">
+                <span>React</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#" class="project-btn">
+                  Live Demo ↗
+                </a>
+
+                <a href="#" class="project-btn secondary">
+                  GitHub ↗
+                </a>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- Project 3 -->
+          <article class="project-card reveal">
+
+            <div class="project-image">
+              <div class="project-placeholder">
+                <img src="Website-KPI-dashboard.png">
+              </div>
+
+              <div class="project-overlay">
+                <a href="#" aria-label="View task manager">
+                  ↗
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+
+              <p class="project-number">03</p>
+
+              <h3>Task Management App</h3>
+
+              <p>
+                A productivity application that helps users organize,
+                track and manage daily tasks.
+              </p>
+
+              <div class="tech-stack">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>LocalStorage</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#" class="project-btn">
+                  Live Demo ↗
+                </a>
+
+                <a href="#" class="project-btn secondary">
+                  GitHub ↗
+                </a>
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="section contact" id="contact">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="section-label">Have a project in mind?</p>
+          <h2>Let's <span>Connect</span></h2>
+          <div class="heading-line"></div>
+        </div>
+
+
+        <div class="contact-grid">
+
+          <div class="contact-info reveal">
+
+            <h3>Let's talk about your project.</h3>
+
+            <p>
+              Whether you have a project idea, a job opportunity,
+              or simply want to say hello, feel free to send me
+              a message.
+            </p>
+
+
+            <div class="contact-item">
+              <div class="contact-icon">✉</div>
+              <div>
+                <span>Email</span>
+                <a href="shivanicyber123@gmail.com">
+                    shivanicyber123@gmail.com
+                </a>
+              </div>
+            </div>
+
+
+            <div class="contact-item">
+              <div class="contact-icon">in</div>
+              <div>
+                <span>LinkedIn</span>
+                <a
+                  href="https://www.linkedin.com/in/shivani-tiwari-93205b302"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                https://www.linkedin.com/in/shivani-tiwari-93205b302
+                </a>
+              </div>
+            </div>
+
+
+            <div class="contact-socials">
+
+              <a
+                href=""https://github.com/shivanitiwari1234
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                GitHub
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/shivani-tiwari-93205b302"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                LinkedIn
+              </a>
+
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+              >
+                Twitter
+              </a>
+
+            </div>
+
+          </div>
+
+
+          <!-- Contact Form -->
+          <form class="contact-form reveal" id="contactForm" novalidate>
+
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Doe"
+                autocomplete="name"
+                required
+              />
+              <small class="error-message" id="nameError"></small>
+            </div>
+
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                autocomplete="email"
+                required
+              />
+              <small class="error-message" id="emailError"></small>
+            </div>
+
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Project inquiry"
+                required
+              />
+              <small class="error-message" id="subjectError"></small>
+            </div>
+
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+              <small class="error-message" id="messageError"></small>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary submit-btn">
+              Send Message
+              <span>→</span>
+            </button>
+
+            <p class="form-status" id="formStatus"></p>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <a href="#home" class="logo">
+        <span>&lt;</span>Shivani<span>/&gt;</span>
+      </a>
+
+      <p>
+        © <span id="currentYear"></span> Shivani Tiwari.
+        Built with HTML, CSS & JavaScript.
+      </p>
+
+      <a href="#home" class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
